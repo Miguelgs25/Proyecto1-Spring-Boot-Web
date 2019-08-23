@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Variables</title>
+</head>
+<body>
+    <h1>Enviar parametros del request HTTP GET</h1>
+    <ul>
+        <li>
+            <a th:href="@{/variables/string/Esto es el texto}">Enlace a recibir variables</a>
+        </li>
+        <li>
+            <a th:href="@{/variables/string/Esto es el texto/10}">Enlace a recibir 2 variables</a>
+        </li>
+    </ul>
+</body>
+</html>
